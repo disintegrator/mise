@@ -1,5 +1,19 @@
 # Changelog
 
+## [2025.8.10](https://github.com/jdx/mise/compare/v2025.8.9..v2025.8.10) - 2025-08-13
+
+### 📦 Registry
+
+- enable kubecolor test by [@risu729](https://github.com/risu729) in [#6008](https://github.com/jdx/mise/pull/6008)
+- fix os specific backends for usage by [@risu729](https://github.com/risu729) in [#6007](https://github.com/jdx/mise/pull/6007)
+- use aqua backend for restish by [@risu729](https://github.com/risu729) in [#5986](https://github.com/jdx/mise/pull/5986)
+
+### 🐛 Bug Fixes
+
+- **(aqua)** improve warnings for packages without repo_owner and repo_name  (2nd attempt) by [@risu729](https://github.com/risu729) in [#6009](https://github.com/jdx/mise/pull/6009)
+- version prefix detection by [@risu729](https://github.com/risu729) in [#5943](https://github.com/jdx/mise/pull/5943)
+- respect MISE_DEFAULT_CONFIG_FILENAME by [@risu729](https://github.com/risu729) in [#5899](https://github.com/jdx/mise/pull/5899)
+
 ## [2025.8.9](https://github.com/jdx/mise/compare/v2025.8.8..v2025.8.9) - 2025-08-13
 
 ### 📦 Registry
@@ -17,6 +31,7 @@
 
 - **(aqua)** add executable permissions for zip-extracted binaries by [@itochan](https://github.com/itochan) in [#5998](https://github.com/jdx/mise/pull/5998)
 - **(core)** auto-repair corrupted pyenv cache by recloning on update failure by [@jdx](https://github.com/jdx) in [#6003](https://github.com/jdx/mise/pull/6003)
+- **(uv_venv)** fixes PATH ordering with `mise x` by [@jdx](https://github.com/jdx) in [#6005](https://github.com/jdx/mise/pull/6005)
 - duplicate versions and validation in `mise tool` by [@jdx](https://github.com/jdx) in [#6001](https://github.com/jdx/mise/pull/6001)
 
 ### 📚 Documentation
